@@ -22,10 +22,9 @@ describe('Controller: MainCtrl', function () {
   //});
 
   it('no debe tener items al empezar', function () {
-    expect(scope.todos.length).toBe(0);
+    expect(scope.tareas.length).toBe(0);
   });
 
-0
   it('debe añadir items a la lista', function () {
     scope.tarea = 'Test 1';
     scope.addTareas();
